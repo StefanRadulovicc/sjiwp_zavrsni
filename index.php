@@ -116,7 +116,7 @@ else:
         <td><strong>#<?= $red['ID_rekord'] ?></strong></td>
         <td><?= htmlspecialchars($red['Korisnik']) ?></td>
         <td><span class="badge-vjezba"><?= htmlspecialchars($red['Vjezba']) ?></span></td>
-        <td><span class="text-kg"><?= number_format($red['MaxOpterecenje_kg'], 1) ?> kg</span></td>
+        <td><span class="text-kg"><?= number_format($red['MaxOpterecenje_kg'] ?? 0 , 1) ?> kg</span></td>
         <td><?= $red['BrojPonavljanja'] ?> ×</td>
         <td><?= date("d.m.Y.", strtotime($red['DatumPostizanja'])) ?></td>
         <td>
