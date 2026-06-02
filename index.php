@@ -37,7 +37,7 @@ $sql .= " ORDER BY r.DatumPostizanja DESC";
 </head>
 <body>
 
-<h1>🏆 FitTrack Dashboard</h1>
+<h1>🏆 FitTrack </h1>
 
 <div class="stats-container">
     <div class="stat-card">

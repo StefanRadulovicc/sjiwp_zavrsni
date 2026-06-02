@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 $host     = "localhost";
 $korisnik = "root";
 $lozinka  = "";
-$baza     = "FitTrack"; // Ovdje smo osigurali točna velika slova F i T!
+$baza     = "dbp_z"; // Ovdje smo osigurali točna velika slova F i T!
 
 $conn = new mysqli($host, $korisnik, $lozinka, $baza);
 
